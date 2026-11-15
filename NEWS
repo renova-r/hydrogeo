@@ -1,0 +1,27 @@
+* Version 0.6-1
+
+- added function testData to generate samples for creating piper
+  objects
+
+- removed 'WaterType' and 'object' slots on piper objects because
+  the concept was buggy.  Better to assign pch and col parameters
+  directly, example changed to reflect this.
+
+- fixed default pch and col assignment so more than 26 samples does
+  not cause an error
+
+* Version 0.5-1
+
+- allowed use of `cex' parameter in piper diagrams
+
+* Version 0.4-1
+
+- fixed a bug that plotted points in the wrong places
+
+* Version 0.2-3
+
+- fixed a bug whereby cex parameter could not be used
+
+* Version 0.2-2
+
+- major rewrite as S4 classes
