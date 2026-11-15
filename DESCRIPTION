@@ -1,12 +1,13 @@
 Package: hydrogeo
-Version: 0.6-1
-Date: 2017-03-12
+Version: 0.6.1.9001
 Title: Groundwater Data Presentation and Interpretation
-Author: Myles English <myles@rockhead.biz>
+Author: Myles English [aut, cre]
 Maintainer: Myles English <myles@rockhead.biz>
+Authors@R: person(given = "Myles", family = "English", role = c("aut", "cre"), email = "myles@rockhead.biz")
 Copyright: Myles English <myles@rockhead.biz>
 Description: Contains one function for drawing Piper diagrams (also
     called Piper-Hill diagrams) of water analyses for major ions.
+    Compatibility updates by Renova.
 Depends: R (>= 2.6.0)
 Imports: methods
 License: BSD_2_clause + file LICENCE
